@@ -1,0 +1,19 @@
+<html>
+
+<head>
+<title> Timer</title>
+</head>
+<body>
+
+<span id="time"></span>
+
+<script>
+setInterval(getTime,1000);
+function getTime(){
+document.getElementById("time").innerHTML=new Date();	
+}
+</script>   
+
+</body>
+
+</html>
